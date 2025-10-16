@@ -1,7 +1,7 @@
-# 🏋️‍♂️ Muscle Mentor — Trainer Dashboard
+# 🏋️‍♂️ Muscle Mentor — Fitness App
 
-A modern fitness trainer dashboard built with **Next.js**, **React**, **TypeScript**, and **Tailwind CSS**.  
-It allows trainers to collect client data, build personalized plans, and visualize progress.
+A modern fitness coaching app built with **Next.js**, **React**, **TypeScript**, and **Tailwind CSS**.  
+The app collects user data, builds personalized workout and nutrition plans, and visualizes progress over time.
 
 ---
 
@@ -26,11 +26,11 @@ It allows trainers to collect client data, build personalized plans, and visuali
 ## 🧰 To-Do
 - [ ] Add more questionnaire steps (10 total)  
 - [ ] Store responses in a database (Supabase/Firebase)  
-- [ ] Create trainer dashboard with client list + charts  
-- [ ] Add authentication (trainer login/logout)  
+- [ ] Create progress dashboard with user stats + charts  
+- [ ] Add authentication (user login/logout)  
 - [ ] Implement AI-based plan generation logic  
 - [ ] Add mobile-friendly responsive layout  
-- [ ] Deploy to Vercel with live demo link  
+- [ ] Deploy to Vercel  
 - [ ] Write setup & contribution guide  
 
 ---
