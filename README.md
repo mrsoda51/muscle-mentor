@@ -24,13 +24,12 @@ The app collects user data, builds personalized workout and nutrition plans, and
 ---
 
 ## 🧰 To-Do
-- [ ] Add more questionnaire steps (10 total)  
+- [x] Add more questionnaire steps (10 total)  
 - [ ] Store responses in a database (Supabase/Firebase)  
 - [ ] Create progress dashboard with user stats + charts  
 - [ ] Add authentication (user login/logout)  
-- [ ] Implement AI-based plan generation logic  
+- [x] Implement AI-based plan generation logic  
 - [ ] Add mobile-friendly responsive layout  
 - [ ] Deploy to Vercel  
-- [ ] Write setup & contribution guide  
 
 ---
