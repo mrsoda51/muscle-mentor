@@ -1,13 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  --background: 0 0% 100%;       
-  --foreground: 222.2 84% 4.9%;  
+  --background: 0 0% 0%;       
+  --foreground: 0 0% 100%;     
+  --container: 100vw;          
 }
-
-:root { --container: 72rem; }
-main { max-width: var(--container); margin-inline: auto; }
-
 
 @theme inline {
   --color-background: var(--background);
@@ -16,15 +13,16 @@ main { max-width: var(--container); margin-inline: auto; }
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-  }
+
+main {
+  max-width: none;
+  margin-inline: 0;
+  width: 100%;
 }
 
 
 body {
   color: hsl(var(--foreground));
   background: hsl(var(--background));
+  overflow-x: hidden;
 }
