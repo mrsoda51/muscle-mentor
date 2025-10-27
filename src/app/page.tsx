@@ -29,7 +29,7 @@ export default function Landing() {
                 { label: "STRENGTH", color: "from-orange-600 to-red-600" },
                 { label: "SPEED", color: "from-yellow-500 to-orange-500" },
                 { label: "ENDURANCE", color: "from-pink-500 to-red-500" },
-                { label: "VICTORY", color: "from-amber-400 to-orange-500" },
+                { label: "POWER", color: "from-amber-400 to-orange-500" },
               ].map((x) => (
                 <div
                   key={x.label}
